@@ -1,0 +1,12 @@
+{
+  "listen": "127.0.0.1:8080",
+  "data_dir": "./data",
+  "model_mode": "fixture",
+  "agent_mode": "single",
+  "workspace_root": ".",
+  "academic": {
+    "mode": "arxiv_mcp",
+    "command": "uvx",
+    "timeout_seconds": 60
+  }
+}

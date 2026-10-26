@@ -1,0 +1,25 @@
+/data/
+/.cache/
+/bin/
+/web/node_modules/
+/web/dist/
+/web/test-results/
+/test-results/
+/web/playwright-report/
+/web/.test-data/
+*.tsbuildinfo
+*.local.json
+
+# 本地开发配置、凭据与 Go 工作区。
+.env
+.env.*
+!.env.example
+/config.json
+/go.work
+/go.work.sum
+*.db
+*.db-shm
+*.db-wal
+*.log
+/autoresearch
+/autoresearch.exe
